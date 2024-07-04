@@ -11,15 +11,13 @@ appid = 'XXXXXXXXXXXXX'  # appid
 secretKey = 'XXXXXXXXXXX'  # 密钥 
 
 
-
 def make_md5(s, encoding='utf-8'):
     return md5(s.encode(encoding)).hexdigest()
 
 
 class translatetoen:
     @classmethod
-    
-    
+     
 
     def INPUT_TYPES(s):
     # 定义一个字典并返回
