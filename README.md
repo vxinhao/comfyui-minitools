@@ -1,4 +1,4 @@
-# comfyui-minitool
+# comfyui-minitools
 comfyui小工具集，避免节点冗余，看有没时间持续更新吧
 
 1、2024-07-04 提示词翻译节点，将输入的内容转换成英文，用的百度翻译api，所以需要实现准备好appid（可在百度翻译官方免费申请）
