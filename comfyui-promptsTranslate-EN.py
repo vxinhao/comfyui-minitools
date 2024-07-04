@@ -3,11 +3,12 @@ import random
 from hashlib import md5
 
 
-# 百度翻译api 申请地址：https://api.fanyi.baidu.com/
+# 百度翻译api 免费申请地址：https://api.fanyi.baidu.com/
 
-appid = '20230822001789253'  # appid
+# 需要使用自己的appid
+appid = 'XXXXXXXXXXXXX'  # appid
 
-secretKey = 'QnJmlXXgHDP47MxDSoFC'  # 密钥 
+secretKey = 'XXXXXXXXXXX'  # 密钥 
 
 
 
