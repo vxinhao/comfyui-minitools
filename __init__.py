@@ -9,7 +9,7 @@ NODE_CLASS_MAPPINGS = {
  
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "LP-TranslateToEN": "Tranlate to English 👻",
+    "LP-TranslateToEN": "Translate to English 👻",
     "LP-color2RGB"    : "Color to RGB 👻"
 }
 
