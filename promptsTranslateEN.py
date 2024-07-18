@@ -6,9 +6,9 @@ from hashlib import md5
 # 百度翻译api 免费申请地址：https://api.fanyi.baidu.com/
 
 # ----------需要修改成自己的appid和密钥------------
-appid = '20230822001789253'  # appid
+appid = 'xxxxxx'  # appid
 
-secretKey = '1a_B42w3EClH1vnQq8W0'  # 密钥 
+secretKey = 'xxxxx'  # 密钥 
 #------------------------------------------------
 
 def make_md5(s, encoding='utf-8'):
@@ -52,7 +52,7 @@ class translatetoen:
         salt = random.randint(32768, 65536)
         sign = make_md5(appid + prompt_text + str(salt) + secretkey)
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-        payload = {'appid': appid, 'q': prompt_text, 'from': 'auto', 'to': 'en', 'salt': salt, 'sign': sign}
+        payload = {'appid': appid, 'q': prompt_text, 'from': 'zh', 'to': 'en', 'salt': salt, 'sign': sign}
         response = requests.post(url, params=payload, headers=headers)
         result = response.json()
 
