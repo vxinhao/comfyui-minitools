@@ -52,7 +52,7 @@ class translatetoen:
         salt = random.randint(32768, 65536)
         sign = make_md5(appid + prompt_text + str(salt) + secretkey)
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-        payload = {'appid': appid, 'q': prompt_text, 'from': 'auto', 'to': 'en', 'salt': salt, 'sign': sign}
+        payload = {'appid': appid, 'q': prompt_text, 'from': 'zh', 'to': 'en', 'salt': salt, 'sign': sign}
         response = requests.post(url, params=payload, headers=headers)
         result = response.json()
 
