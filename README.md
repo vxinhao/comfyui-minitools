@@ -14,3 +14,6 @@ alltools中均为独立节点，可按需下载安装。
 2、promptsTranslateEN 提示词翻译节点，将输入的内容转换成英文，用的百度翻译api，所以需要实现准备好appid（可在百度翻译官方免费申请）
 节点演示：
 ![image](https://github.com/vxinhao/comfyui-minitool/assets/50534209/d3f08259-a2ef-4b0b-85df-fb5ef9f32e01)
+
+3、RGB or HEX Convert to DEC 将十六进制颜色码和RBG转换成十进制
+![image](https://github.com/user-attachments/assets/92b7a954-3c91-44d0-aa21-6eecea840aad)
